@@ -1,0 +1,23 @@
+﻿Build started 3/26/2013 12:11:56 PM.
+     1>Project "C:\Users\Scott\Dropbox\Programming\CLPlayground\Components\Tocs\Math\Math.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Math.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Scott\Dropbox\Programming\CLPlayground\\Components\bin\Math-d.lib" /NOLOGO Debug\BezierCurve.obj
+         Debug\Matrix4.obj
+         Debug\Operators.obj
+         Debug\Quaternion.obj
+         Debug\Ray.obj
+         Debug\Transform.obj
+         Debug\Vector3.obj
+         Math.vcxproj -> C:\Users\Scott\Dropbox\Programming\CLPlayground\\Components\bin\Math-d.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Math.unsuccessfulbuild".
+         Touching "Debug\Math.lastbuildstate".
+     1>Done Building Project "C:\Users\Scott\Dropbox\Programming\CLPlayground\Components\Tocs\Math\Math.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18

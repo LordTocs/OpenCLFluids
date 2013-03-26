@@ -1,0 +1,41 @@
+﻿Build started 3/26/2013 12:11:57 PM.
+     1>Project "C:\Users\Scott\Dropbox\Programming\CLPlayground\Components\Tocs\Graphics\Graphics.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Graphics.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../ /IC:\Users\Scott\Dropbox\Programming\CLPlayground\/Libs/glew/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SimpleWindow.cpp Texture.cpp Texture3D.cpp
+         Skipping... (no relevant changes detected)
+         Texture3D.cpp
+         Texture.cpp
+         SimpleWindow.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Scott\Dropbox\Programming\CLPlayground\\Components\bin\Graphics-d.lib" "Input-d.lib" Opengl32.lib glew32.lib /LIBPATH:C:\Users\Scott\Dropbox\Programming\CLPlayground\/Libs/glew/lib /LIBPATH:C:\Users\Scott\Dropbox\Programming\CLPlayground\/Components/bin /NOLOGO Debug\Color.obj
+         Debug\ContextTarget.obj
+         Debug\DepthStencilBuffer.obj
+         Debug\ErrorHandling.obj
+         Debug\GraphicsContext.obj
+         Debug\IBO.obj
+         Debug\RenderTarget.obj
+         Debug\Shader.obj
+         Debug\ShaderCode.obj
+         Debug\ShaderTypes.obj
+         Debug\ShaderUniform.obj
+         Debug\ShaderUniformSet.obj
+         Debug\SimpleWindow.obj
+         Debug\Texture.obj
+         Debug\Texture3D.obj
+         Debug\TextureFormat.obj
+         Debug\VAO.obj
+         Debug\VBO.obj
+         Debug\VertexFormat.obj
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in Opengl32.lib(OPENGL32.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Graphics.vcxproj -> C:\Users\Scott\Dropbox\Programming\CLPlayground\\Components\bin\Graphics-d.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Graphics.unsuccessfulbuild".
+         Touching "Debug\Graphics.lastbuildstate".
+     1>Done Building Project "C:\Users\Scott\Dropbox\Programming\CLPlayground\Components\Tocs\Graphics\Graphics.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.20

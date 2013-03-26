@@ -1,0 +1,43 @@
+﻿Build started 3/25/2013 12:02:59 PM.
+     1>Project "C:\Users\Scott\Dropbox\Programming\CLPlayground\CLPlayground\CLPlayground.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\CLPlayground.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Scott\Dropbox\Programming\CLPlayground\/Components/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SeiveMain.cpp main.cpp
+         Skipping... (no relevant changes detected)
+         main.cpp
+         SeiveMain.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CLPlayground.exe.embed.manifest.res" Debug\CLPlayground_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\CLPlayground.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Scott\Dropbox\Programming\CLPlayground\/Components/bin "Parallel-d.lib" "Drawing-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CLPlayground.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\CLPlayground.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\CLPlayground.lib" /MACHINE:X86 Debug\CLPlayground.exe.embed.manifest.res
+         Debug\JuliaCrafter.obj
+         Debug\main.obj
+         Debug\SeiveMain.obj
+         Debug\Timer.obj
+     1>Parallel-d.lib(BufferBase.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(BufferBase.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(CommandQueue.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(CommandQueue.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(Context.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(Context.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(Device.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(Device.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(Enums.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(Enums.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(ErrorCheck.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(ErrorCheck.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(Event.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(Event.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(ImageFormat.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(ImageFormat.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(IntermediateEvent.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(IntermediateEvent.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(KernelBase.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(KernelBase.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(Platform.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(Platform.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+     1>Parallel-d.lib(Program.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'Parallel-d.lib(Program.obj)' or at 'C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CLPlayground.exe.embed.manifest" /manifest Debug\CLPlayground.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         CLPlayground.vcxproj -> C:\Users\Scott\Dropbox\Programming\CLPlayground\Debug\CLPlayground.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\CLPlayground.unsuccessfulbuild".
+         Touching "Debug\CLPlayground.lastbuildstate".
+     1>Done Building Project "C:\Users\Scott\Dropbox\Programming\CLPlayground\CLPlayground\CLPlayground.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.31
